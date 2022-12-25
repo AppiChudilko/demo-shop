@@ -1,0 +1,6 @@
+[2018-02-26 21:07:27] [128.72.190.40] [2018-02-26] exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'admin_demo'@'localhost' (using password: YES)' in /home/pubggami/domains/pubg-gaming.ru/public_html/Server/Core/QueryBuilder.php:41
+Stack trace:
+#0 /home/pubggami/domains/pubg-gaming.ru/public_html/Server/Core/QueryBuilder.php(41): PDO->__construct('mysql:host=loca...', 'admin_demo', '2a97516c354b688...', Array)
+#1 /home/pubggami/domains/pubg-gaming.ru/public_html/index.php(51): Server\Core\QueryBuilder->connectDataBase('localhost', 'admin_demo', 'admin_demo', 'demo')
+#2 {main};
+
